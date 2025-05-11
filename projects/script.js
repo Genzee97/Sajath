@@ -20,12 +20,12 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Jigar Sable";
-            $("#favicon").attr("href", "/assets/images/favicon.png");
+            document.title = "Projects | Portfolio Sajath Gani";
+            $("#favicon").attr("href", "/assets/images/favicon.ico");
         }
         else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "/assets/images/favhand.png");
+            document.title = "Hire Me";
+            $("#favicon").attr("href", "/assets/images/favicon.ico");
         }
     });
 
@@ -117,7 +117,7 @@ var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 })();
 // End of Tawk.to Live Chat
 
-// disable developer mode
+// diGani developer mode
 document.onkeydown = function (e) {
     if (e.keyCode == 123) {
         return false;
