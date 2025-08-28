@@ -20,7 +20,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Sajath Gani";
+            document.title = "Sajath Gani F";
             $("#favicon").attr("href", "/assets/images/favicon.ico");
         }
         else {
@@ -135,4 +135,5 @@ document.onkeydown = function (e) {
         return false;
     }
 }
+
 
