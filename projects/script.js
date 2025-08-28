@@ -24,7 +24,7 @@ document.addEventListener('visibilitychange',
             $("#favicon").attr("href", "/assets/images/favicon.ico");
         }
         else {
-            document.title = "Hire Me";
+            document.title = "Hire My Skills";
             $("#favicon").attr("href", "/assets/images/favicon.ico");
         }
     });
@@ -135,3 +135,4 @@ document.onkeydown = function (e) {
         return false;
     }
 }
+
